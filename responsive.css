@@ -14,19 +14,25 @@ article {
 	background-color: green;
 	width: 32%;
 	margin-left: 10px;
+	margin-right: 10px;
 	height: 40px;
 }
 
 @media only screen and (max-width: 600px) {
  
-  body {
-    background-color: red;
-  }
+section {
+	flex-direction: column;
+}
 
-  article {
+body {
+    background-color: red;
+}
+
+article {
   	background-color: purple;
-  	width: 100%;
+  	width: 90%;
   	height: 50px;
-  }
+  	margin-top: 20px;
+}
 
 }
