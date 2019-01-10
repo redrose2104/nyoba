@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: Grey;
+}
+
+section {
+	display: flex;
+}
+
+article {
+	background-color: green;
+	width: 32%;
+	margin-left: 10px;
+	height: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+  body {
+    background-color: red;
+  }
+
+  article {
+  	background-color: purple;
+  	width: 100%;
+  	height: 50px;
+  }
+
+}
